@@ -1,0 +1,222 @@
+/* css reset */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navigation section css*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(242, 233, 242);
+    padding: 0rem 4rem;
+}
+
+#navbar:hover {
+    background-color: whitesmoke;
+}
+
+#logo-txt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+#logo-txt a {
+    cursor: default;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+#right-navbar li {
+    text-decoration: none;
+    margin: 0rem 0.5rem;
+    list-style: none;
+}
+
+#nav-logo {
+    height: 75px;
+}
+
+#right-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------------ */
+/* home-section css */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    top: 100%;
+    background: url("index_bg.png") no-repeat center;
+    background-blend-mode: lighten(5px);
+    background-color: rgb(242, 233, 242);
+    /* color: white; */
+}
+
+#home h1 {
+    justify-content: center;
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    margin-top: 0rem;
+    padding-left: 2rem;
+}
+
+#home h3 {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0rem;
+    color: red;
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+#home-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+#home-links ul li {
+    margin: 1.5rem 0rem;
+    margin-right: 0.5rem;
+    padding-left: -2rem;
+}
+
+.login-system-links {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(8, 143, 143);
+    border: 2px solid rgb(8, 143, 143);
+}
+
+.login-system-links:hover {
+    background-color: rgb(6, 120, 120);
+    border-color: rgb(6, 120, 120);
+    color: #fff;
+}
+
+/* --------------------------------------------------------------------------  */
+/* signup form css */
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: black 2px solid;
+}
+
+#logo h1 {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 3rem;
+}
+
+.form-img {
+    height: 5rem;
+    margin-right: 0.5rem;
+}
+
+.sub-signup-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.form-inputs input {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: black 2px solid;
+    border-radius: 6px;
+}
+
+.button-sumbit {
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 0px 10px;
+    background-color: black;
+    border-color: black;
+}
+
+.button-sumbit:hover {
+    outline: none;
+    color: white;
+    background-color: rgb(80, 106, 255);
+    border-color: rgb(80, 106, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#form-name-section {
+    display: flex;
+    flex-direction: row;
+}
+
+/* --------------------------------------------------------------------------- */
+/* login-form css */
+#login-form {
+    margin: 4rem 32rem;
+}
+
+#login-form img {
+    height: 10rem;
+}
+
+.sub-loginform .form-inputs {
+    font-size: 2rem;
+}
+
+.sub-loginform .form-inputs button {
+    margin-bottom: 2rem;
+}
+
+
+/* ------------------------------------------------------------- */
+/* utilities-classes css */
+.form {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 28.5rem;
+    padding: 0.5rem 0.5rem;
+    border: black 2px solid;
+    border-radius: 9px;
+    box-shadow: 0 0 128px 0 rgb(80, 16, 141),
+        0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}

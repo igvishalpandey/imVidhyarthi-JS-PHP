@@ -1,0 +1,300 @@
+/* font-import */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,200&display=swap');
+
+
+/* css reset  */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.features-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(242, 233, 242);
+    padding: 0rem 4rem;
+    opacity: 75%;
+}
+
+.features-navbar:hover {
+    background-color: whitesmoke;
+}
+
+.features-navbar img {
+    height: 75px;
+}
+
+.features-navbar a {
+    cursor: default;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+/* profile css */
+
+#profile-feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#profile-feature::before {
+    content: "";
+    position: absolute;
+    background: url(/features-sub-img/bg_2.jpg) no-repeat center center/cover;
+    height: 680px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#profile-features-box {
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 5px 10px rgb(8, 143, 143);
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+
+#profile-picture a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.2rem;
+    border: 1px solid rgb(80, 106, 255);
+    background-color: rgb(80, 106, 255);
+    border-radius: 5px;
+    color: white;
+}
+
+#profile-picture a:hover {
+    background-color: black;
+    color: white;
+}
+
+#profile-picture img {
+    height: 100px;
+    margin: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+#profile-details {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.sub-profile-details {
+    padding: 0.2rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.sub-profile-details h5 {
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    color: slategrey;
+}
+
+
+/* circular css */
+
+#circular-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#circular-section::before {
+    content: "";
+    position: absolute;
+    background: url(/features-php/features-sub-img/circular_bg.jpg) no-repeat center center/cover;
+    height: 680px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#circular-section-box {
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 5px 10px rgb(8, 143, 143);
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#circular-head {
+    font-family: 'Quicksand', sans-serif;
+    margin: 2rem 0rem;
+}
+
+#fetched-circular {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 280px;
+    overflow-y: scroll;
+    scrollbar-width: 100px;
+    scrollbar-color: rgb(8, 143, 143) white;
+    padding-right: 2rem;
+    margin-top: 0rem;
+}
+
+.sub-circular {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid grey;
+    border-radius: 2px;
+    background-color: rgb(8, 143, 143);
+}
+
+.sub-circular a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.sub-circular a:hover {
+    color: black;
+}
+
+/* notes-web css */
+.notes-web {
+    height: 600px;
+}
+
+.notes-web::before {
+    content: "";
+    position: absolute;
+    background: url(/features-sub-img/notes.jpg) no-repeat center center/cover;
+    height: 680px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.sub-notes-web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 5rem 15rem;
+}
+
+#notes-dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#notes-dropdown h1,
+#faculty-notes-link h1 {
+    margin: 0.4rem 8rem;
+    padding: 0.5rem 1rem;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid white;
+    border-radius: 9px;
+    box-shadow: 0 0 128px 0 rgb(80, 16, 141),
+        0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    background: black;
+}
+
+#faculty-notes-link {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-notes img {
+    height: 400px;
+}
+
+/* write a notes css */
+
+.navbar-notes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(242, 233, 242);
+    padding: 0rem 4rem;
+    opacity: 75%;
+}
+
+.navbar-notes:hover {
+    background-color: whitesmoke;
+}
+
+
+#search-notes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-notes button {
+    margin-left: 0.5rem;
+}
+
+.notes-head {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    box-shadow: 0 0 128px 0 rgb(80, 16, 141),
+        0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+
+.card textarea {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.swiper {
+    width: 1250x;
+}
+
+
+/* swiper css */

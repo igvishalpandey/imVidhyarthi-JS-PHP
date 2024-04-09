@@ -1,0 +1,185 @@
+/* css reset  */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navbar css */
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(242, 233, 242);
+    padding: 0rem 4rem;
+}
+
+
+#navbar:hover {
+    background-color: whitesmoke;
+}
+
+#logo-txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-txt a {
+    cursor: default;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#nav-logo {
+    height: 75px;
+}
+
+.navbar-list-items {
+    font-size: 1.5rem;
+    padding-left: 8px;
+}
+
+/*/* left-navbar */
+.left-sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.left-sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.left-sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.left-sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*right navbar/**/
+.right-dropdown-menu {
+    width: 200px;
+}
+
+.dropdown-details {
+    font-size: 1.4rem;
+}
+
+.right-dropdown-profile-information-solid-color {
+    padding-left: 10px;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-height: 450px) {
+    .left-sidenav {
+        padding-top: 15px;
+    }
+
+    .left-sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* content-section css */
+#content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 233, 242);
+    height: 600px;
+    top: 100%;
+}
+
+#content-section h4 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0rem;
+}
+
+#content-section h1 {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    margin-top: 0rem;
+}
+
+#content-section p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#content-section a {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(8, 143, 143);
+    border: 2px solid rgb(8, 143, 143);
+}
+
+#content-section a:hover {
+    background-color: rgb(6, 120, 120);
+    border-color: rgb(6, 120, 120);
+}
+
+/* features-section css */
+#features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
+    margin-left: 5rem;
+}
+
+.sub-feature {
+    margin-right: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-feature a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.sub-feature a h5:hover{
+    color: rgb(8, 143, 143);
+    text-decoration: none;
+}
+
+.sub-feature img {
+    height: 100px;
+}
+
